@@ -23,9 +23,6 @@
 
     width: 50%;
     height: auto;
-   
-  
-  
 }
 
 .nav.navbar-expand-lg{
@@ -39,3 +36,8 @@
     max-width: 100%;
 }
 
+.carouseltext{
+    text-align: left;
+    padding-bottom: 35%;
+    
+}
