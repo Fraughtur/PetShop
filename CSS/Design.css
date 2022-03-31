@@ -1,0 +1,40 @@
+.fundacion {
+    text-align: center;
+    background-color: rgb(114, 2, 22) ;
+    color: white;
+}
+
+.border.border-2{
+    
+    width: 20%;
+    height: auto;
+}
+
+.nav-link.active {
+    color: rgb(191, 3, 53);                                 
+}
+
+.nav-link.active:hover{
+    color: rgb(255, 0, 0);
+}
+
+.buycart {
+    display: block;
+
+    width: 50%;
+    height: auto;
+   
+  
+  
+}
+
+.nav.navbar-expand-lg{
+    position: 50%;
+}
+
+.logocompany{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
