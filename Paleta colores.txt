@@ -1,20 +1,5 @@
-/* Color Theme Swatches in Hex */
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-1-hex { color: #730217; }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-2-hex { color: #40010D; }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-3-hex { color: #BF0436; }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-4-hex { color: #7EB6D9; }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-5-hex { color: #402C1A; }
-
-/* Color Theme Swatches in RGBA */
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-1-rgba { color: rgba(114, 2, 22, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-2-rgba { color: rgba(63, 1, 12, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-3-rgba { color: rgba(191, 3, 53, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-4-rgba { color: rgba(125, 181, 216, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-5-rgba { color: rgba(63, 43, 26, 1); }
-
-/* Color Theme Swatches in HSLA */
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-1-hsla { color: hsla(348, 96, 22, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-2-hsla { color: hsla(348, 96, 12, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-3-hsla { color: hsla(343, 96, 38, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-4-hsla { color: hsla(202, 54, 67, 1); }
-.dog-camping-in-the-car.-Nova-Scotia-Duck-Tolling-Retriever-and-Jack-Russell-Terrier-in-the-luggage-compartment.-Pets-on-vacation.-5-hsla { color: hsla(28, 41, 17, 1); }
+rgb(114, 2, 22)
+rgb(63, 1, 12)
+rgb(191, 3, 53)
+rgb(125, 181, 216)
+rgb(63, 43, 26)
