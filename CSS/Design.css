@@ -111,3 +111,25 @@ h2{
 .border-white {
     border-color: blue!important;
 }
+
+.previuvfooter{
+    background-color: rgb(114, 2, 22);
+    color: rgb(122, 80, 80);
+    font-family: 'Quicksand', sans-serif !important;
+}
+.buttoncorreo{
+    width: 155px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: rgb(192, 43, 43);
+    border: 2px solid rgb(53, 53, 53);
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}   
+
+.webpaylogo{
+    height: 100%;
+    width: 100%;
+}
