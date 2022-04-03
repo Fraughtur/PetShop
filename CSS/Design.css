@@ -1,6 +1,6 @@
 .fundacion {
     text-align: center;
-    background-color: rgb(114, 2, 22) ;
+    background-color:  rgb(93, 193, 185) ;
     color: white;
 }
 .tittleShop{
@@ -14,7 +14,7 @@
 }
 
 .nav-link.active {
-    color: rgb(114, 2, 22);                                 
+    color: rgb(93, 193, 185);                                 
 }
 
 .nav-link.active:hover{
@@ -48,7 +48,17 @@ text-align: left;
 color: black;
 }
 
+.carousel2text{
 
+    padding-bottom: 100%;
+    text-align: left;
+    color: black;   
+}
+.carousel2texttittle{
+    padding-top: 80%;
+    text-align: left;
+    color: black;  
+}
 
 .cardimage{
 width: 10vw;
@@ -62,10 +72,10 @@ height: 100%;
 }
 
 .container{
-    background-color: rgb(255, 255, 255);
+    background: url("../IMAGES/background.jpg") repeat;
 }
 .navbar{
-    background-color:  rgb(114, 2, 22);
+    background-color:  rgb(93, 193, 185);
 }
 .container-fluid{
     background: url("../IMAGES/background.jpg") repeat;
@@ -90,7 +100,7 @@ h2{
     text-transform: none;
     font-weight: 700;
     font-size: 1em;
-    color: rgb(114, 2, 22);
+    color: rgb(93, 193, 185);
     font-family: 'Quicksand', sans-serif !important;
     
 }
@@ -113,8 +123,8 @@ h2{
 }
 
 .previuvfooter{
-    background-color: rgb(114, 2, 22);
-    color: rgb(122, 80, 80);
+    background-color: rgb(93, 193, 185);
+    color: rgb(255, 255, 255);
     font-family: 'Quicksand', sans-serif !important;
 }
 .buttoncorreo{
@@ -122,7 +132,7 @@ h2{
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    background: rgb(192, 43, 43);
+    background: rgb(17, 96, 141);
     border: 2px solid rgb(53, 53, 53);
     color: #fff;
     font-weight: 400;
@@ -132,4 +142,36 @@ h2{
 .webpaylogo{
     height: 100%;
     width: 100%;
+}
+
+.rowfiltrer{
+    background-color:rgb(93, 193, 185);
+}
+.cardcolor{
+    background-color: white;
+}
+.filtrertotal{
+   color: white ;
+}
+
+.form-check{
+    text-align: center;
+    margin-left: 1.5em;
+}
+.carousel2{
+  
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+    
+}
+
+.carousel2text{
+    background-color: rgb(93, 193, 185);
+    bottom:100%;
+}
+
+.card2{
+    width: 250px;
+    height: 200px;
 }
