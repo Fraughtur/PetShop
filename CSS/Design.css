@@ -148,7 +148,7 @@ h2{
     background-color:rgb(93, 193, 185);
 }
 .cardcolor{
-    background-color: white;
+    background-color: rgb(93, 193, 185);
 }
 .filtrertotal{
    color: white ;
@@ -174,4 +174,11 @@ h2{
 .card2{
     width: 250px;
     height: 200px;
+}
+
+.btn.btn-primary {
+    background-color: rgb(28, 122, 115);
+}
+.btn.btn-secondary{
+    background-color: rgb(28, 122, 115);
 }
