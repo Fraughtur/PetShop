@@ -32,7 +32,17 @@
     position: 50%;
 }
 
+.nav-link.active{
+    color: black;
+}
+.nav-link.active:hover{
+    color: rgb(93, 193, 185);
+}
 
+
+.nav-link{
+    color: black;
+}
 .carousel-inner{
     height: 500px;
     }
