@@ -1,0 +1,77 @@
+.fundacion {
+    text-align: center;
+    background-color:  rgb(73, 197, 255) ;
+    color: white;
+}
+
+.badge.text-wrap{
+    color: black;
+}
+
+
+
+.navbardesign{
+    background-color: rgb(0, 197, 30);
+}
+
+.btn.rounded{
+    background-color: rgb(200, 202, 202);
+}
+
+
+.btn.btn-secundary{
+    background-color: rgb(165, 165, 165);
+}
+.btn.btn.btn-secundary:hover{
+    background-color: rgb(73, 197, 255);
+}
+
+.container{
+    background: rgb(73, 197, 255);
+}
+
+.container-fluid.containernavbar{
+    background: rgb(73, 197, 255);
+}
+
+body{
+        background: url("../IMAGES/background.jpg") repeat; 
+}
+
+.container-fluid.containeradress{
+    background-color: white;
+}
+
+.carousel-inner  {
+    width:100%;
+    height:100%;
+  }
+
+.carousel.item.active {
+    width:100%;
+    height:100%;
+}
+.w-100 {
+    width: 100% ;
+    height: 55vh;
+  }
+
+  .designcolorcardtittle{
+      color: rgb(9, 90, 128);
+  }
+
+  .designcolorcard{
+    color:  rgb(73, 197, 255);
+  }
+
+ .previuvfooter{
+     color: white;
+ }
+ .form-floating.d-flex.rounded-start {
+     color: grey;
+ }
+
+.btn.rounded-bottom{
+    background-color:grey;
+
+}
