@@ -29,6 +29,9 @@
 .container{
     background: rgb(73, 197, 255);
 }
+.container-fluid{
+    background: rgb(73, 197, 255);
+}
 
 .container-fluid.containernavbar{
     background: rgb(73, 197, 255);
@@ -74,4 +77,14 @@ body{
 .btn.rounded-bottom{
     background-color:grey;
 
+}
+
+   
+
+.labelregisterorder{
+   margin-left: 2%;
+}
+
+.tittlenameregister{
+    color: black;
 }
