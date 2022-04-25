@@ -8,6 +8,15 @@
     color: black;
 }
 
+.tittlecategory{
+    color: white;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.infoshop{
+    color: white;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
 
 .card-body{
     margin-top: 8%;
@@ -44,7 +53,8 @@
 }
 
 body{
-        /* background: url("../IMAGES/background.jpg") repeat;  */
+        background: url("../IMAGES/background.jpg") repeat; 
+        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 .container-fluid.containeradress{

@@ -34,7 +34,7 @@
 
 
 body{
-    /* background: url("../IMAGES/background.jpg") repeat;  */
+    background: url("../IMAGES/background.jpg") repeat; 
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     
 }
@@ -96,6 +96,10 @@ body{
     border-width: 0 1px 0 1px;
  
     
+}
+
+h1 h2 h3 h4 h5 h6 a p  {
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 .tiendalocation{
