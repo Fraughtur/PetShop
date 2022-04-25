@@ -9,9 +9,8 @@
 }
 
 
-
-.navbardesign{
-    background-color: rgb(0, 197, 30);
+.card-body{
+    margin-top: 8%;
 }
 
 .btn.rounded{
@@ -30,7 +29,14 @@
     background: rgb(73, 197, 255);
 }
 .container-fluid{
+    background: rgb(255, 255, 255);
+}
+.container-fluid.navbar231{
     background: rgb(73, 197, 255);
+}
+
+.customscolor{
+    background: rgb(73, 197, 255)
 }
 
 .container-fluid.containernavbar{
@@ -38,7 +44,7 @@
 }
 
 body{
-        background: url("../IMAGES/background.jpg") repeat; 
+        /* background: url("../IMAGES/background.jpg") repeat;  */
 }
 
 .container-fluid.containeradress{
@@ -58,6 +64,9 @@ body{
     width: 100% ;
     height: 55vh;
   }
+  .tiendalocation{
+    margin-left: 2%;
+}
 
   .designcolorcardtittle{
       color: rgb(9, 90, 128);
@@ -80,11 +89,49 @@ body{
 }
 
    
-
+.logocompany{
+    margin-left: 4%;
+}
 .labelregisterorder{
    margin-left: 2%;
 }
 
 .tittlenameregister{
     color: black;
+}
+
+.previuvfooter{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+
+.footerimage{
+    margin-left: 4%;
+}
+.logocompany{
+    margin-left: 4%;
+}
+
+.footercontainer{
+    background-color: white;
+}
+
+.nav-link.navitemfooter{
+    color: rgb(73, 197, 255);
+    background: rgb(255, 255, 255);
+}
+
+.consultcolor{
+    color: #7A7A00;
+    font-size: 13px;
+}
+
+.consultcolor2{
+    color: black;
+    font-size: 13px;
+}
+
+.consultcolor3{
+    color: rgb(73, 197, 255);
+    font-size: 13px;
 }

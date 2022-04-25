@@ -1,0 +1,183 @@
+.fundacion {
+    text-align: center;
+    background-color:  rgb(73, 197, 255) ;
+    color: white;
+}
+.badge.text-wrap{
+    color: black;
+}
+.btn.rounded{
+    background-color: rgb(200, 202, 202);
+}
+
+.btn.btn-secundary{
+    background-color: rgb(165, 165, 165);
+}
+.btn.btn.btn-secundary:hover{
+    background-color: rgb(73, 197, 255);
+}
+
+.container{
+    background: rgb(73, 197, 255);
+}
+.container-fluid{
+    background: rgb(73, 197, 255);
+}
+
+.container-fluid.containernavbar{
+    background: rgb(73, 197, 255);
+}
+
+.container-fluid.containeradress{
+    background-color: white;
+}
+
+
+body{
+    /* background: url("../IMAGES/background.jpg") repeat;  */
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    
+}
+
+.carousel-inner  {
+    width:100%;
+    height:100%;
+  }
+
+.carousel.slide.v2{
+    width: 400px;
+    height: 400px;
+  
+  }
+
+  .w-100v3{
+      width: 50%;
+      height: 50%;
+      margin-left: 25%;
+  }
+
+  .sociotext{
+     text-align: center;
+      color: black;
+      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      
+  }
+.sociotext2{
+    color: black;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.colormoney{
+    color: #7A7A00;
+}
+.carousel.item.active {
+    width:100%;
+    height:100%;
+}
+.w-100  {
+    width: 100% ;
+    height: 55vh;
+  }
+
+.containercarouseloffers{
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
+
+ .nav-link {
+    width: 100%;
+    height: 100%;
+    background: rgb(73, 197, 255);
+   
+    border: #FFF solid;
+    border-width: 0 1px 0 1px;
+ 
+    
+}
+
+.tiendalocation{
+    margin-left: 2%;
+}
+.navbar-nav{
+    color: white;
+}
+ 
+.categorias {
+    margin-left: 2%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.carouselcategory{
+    margin-left: 4%;
+    width: 1260px;
+    height: 640px;
+}
+
+.w-100 {
+    width: 100% ;
+    height: 55vh;
+  }
+
+.W-100V2 {
+    width: 100% ;
+    height: 50vh;
+}
+
+.footerimage{
+    margin-left: 4%;
+}
+.logocompany{
+    margin-left: 4%;
+}
+
+.footercontainer{
+    background-color: white;
+}
+
+.nav-link.navitemfooter{
+    color: rgb(73, 197, 255);
+    background: rgb(255, 255, 255);
+}
+
+.consultcolor{
+    color: #7A7A00;
+    font-size: 13px;
+}
+
+.consultcolor2{
+    color: black;
+    font-size: 13px;
+}
+
+.consultcolor3{
+    color: rgb(73, 197, 255);
+    font-size: 13px;
+}
+
+.offersday{
+    margin-left: 5%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.offersday2{
+    margin-left: 5%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.previuvfooter{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    background-color: white;
+}
+
+.btn.rounded-bottom{
+    background-color:rgb(187, 187, 187);
+
+}
+
+.rowoffer{
+    background-color: white;
+}
