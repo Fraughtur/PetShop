@@ -1,22 +1,22 @@
 .fundacion {
     text-align: center;
-    background-color:  rgb(73, 197, 255) ;
+    background-color: rgb(73, 197, 255);
     color: white;
 }
 
 .badge.text-wrap{
     color: black;
 }
-
+.badge.fs-4{
+    color:rgb(73, 197, 255);
+}
 .tittlecategory{
     color: white;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 20px;
 }
 
-.infoshop{
-    color: white;
-    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-}
+
 
 .card-body{
     margin-top: 8%;
@@ -27,33 +27,42 @@
 }
 
 
+.btn.btn-secundary.fw-bold{
+    background-color: rgb(204, 204, 204);
+}
+
 .btn.btn-secundary{
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(204, 204, 204);
+    color: white;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif; 
+    
 }
 .btn.btn.btn-secundary:hover{
-    background-color: rgb(73, 197, 255);
+    background-color: rgb(34, 221, 221);
 }
 
 .container{
-    background: rgb(73, 197, 255);
+    background-color: rgb(34, 221, 221);
 }
 .container-fluid{
     background: rgb(255, 255, 255);
 }
 .container-fluid.navbar231{
-    background: rgb(73, 197, 255);
+    background-color: rgb(73, 197, 255);
 }
 
 .customscolor{
-    background: rgb(73, 197, 255)
+    background-color: rgb(73, 197, 255);
 }
 
+
 .container-fluid.containernavbar{
-    background: rgb(73, 197, 255);
+    background-color: rgb(73, 197, 255);
 }
 
 body{
-        background: url("../IMAGES/background.jpg") repeat; 
+   
+        background: url("../IMAGES/background2.png") repeat; 
         font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
@@ -65,6 +74,8 @@ body{
     width:100%;
     height:100%;
   }
+ 
+
 
 .carousel.item.active {
     width:100%;
@@ -89,16 +100,14 @@ body{
  .previuvfooter{
      color: white;
  }
- .form-floating.d-flex.rounded-start {
-     color: grey;
- }
+ 
 
 .btn.rounded-bottom{
-    background-color:grey;
+    background-color: rgb(204, 204, 204);
 
 }
 
-   
+
 .logocompany{
     margin-left: 4%;
 }
@@ -144,4 +153,73 @@ body{
 .consultcolor3{
     color: rgb(73, 197, 255);
     font-size: 13px;
+}
+
+.regisprom{
+  
+    margin-left: 4%;
+    font-size:18px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.regispromtittle{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.txtquienessomos{
+    
+    margin-left: 20%;
+    font-size: 36px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.txtinfoquienessomos{
+    
+    margin-left: 20%;
+    font-size: 16px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.customscolorfooter{
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 197, 255);
+}
+
+.cardimagepromandtext{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    margin-left: 3%;
+}
+
+.w-100v2{
+    width:  100%;
+    height: 20vh;
+}
+
+.CategoriasDestacadas{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    color: rgb(73, 197, 255);
+}
+
+.btncategorydesign{
+ margin-left: 20%;
+ font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.btncategorytext{
+    color: #000000;
+    font-size: 13px;
+}
+
+.btncategorytext2{
+    color: #7A7A00;
+    font-size: 13px;
+}
+
+.nav-item.imagepadding{
+    padding-left: 60%;
 }
