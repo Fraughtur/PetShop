@@ -55,7 +55,7 @@
         <!-- <input class="form-control me-9" type="search" placeholder="Buscar en la Tienda" aria-label="Search">
         <label for="floatingInput">Buscar en la Tienda</label>
       
-        <!-- <button type="submit" class="btn rounded"><img src="IMAGES/lupa.png" alt="" width="30" height="24" > --> -->
+         <button type="submit" class="btn rounded"><img src="IMAGES/lupa.png" alt="" width="30" height="24" > -->
           <!-- </button> -->
         </form>
        </div>
@@ -300,14 +300,18 @@
         <h5 class="modal-title" id="registerlLabel">Modal title</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="modal-body">
+      <div class="modal-body was-validated">
         <form class="row g-3 needs-validation" novalidate>
           <div class="col-md-12">
-            <label for="validationCustomUsername" class="form-label">Username</label>
+
+            <!-- Nuevo usuario -->
+            <label for="validationCustomUsername" class="form-label">Nombre Usuario:</label>
             <div class="input-group has-validation">
-              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required
+               placeholder="Ingrese usuario" name="uname" required minlength="6" && maxlength="30">
+              <!-- <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required> -->
               <div class="invalid-feedback">
-                Please choose a username.
+                Por favor ingrese su nombre de usuario.
               </div>
             </div>
           </div>
@@ -338,7 +342,7 @@
           <div class="form-check mb-12">
             <input class="form-input" type="checkbox" id="switch"  
             name="remember" >
-            <label class="form-label" for="myCheck">¿Guardar Contraseña?.</label>
+            <label class="form-label" for="myCheck">Acepta Terminos y condiciones.</label>
           </div>
         
         </form> 
