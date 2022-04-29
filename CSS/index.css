@@ -57,13 +57,7 @@
 
 
 .container-fluid.containernavbar{
-    background-color: rgb(73, 197, 255);
-}
-
-body{
-   
-        background: url("../IMAGES/background2.png") repeat; 
-        font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
 }
 
 .container-fluid.containeradress{
@@ -209,7 +203,9 @@ body{
     color: rgb(255, 255, 255);
 }
 
-
+label h1 h2 h3 h4 h5 h6 p{
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
 
 .btncategorytext{
     color:rgb(73, 197, 255);
@@ -224,4 +220,66 @@ body{
 
 .nav-item.imagepadding{
     padding-left: 60%;
+}
+
+.iniciarsesionmodaldesign{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Barra buscador, animación de barra expansiva */
+
+.search-box {
+    
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60px;
+    background: rgb(73, 197, 255);
+    line-height: 40px;
+    padding: 10px;
+    border-radius:  60px;
+    cursor: pointer;
+    
+}
+
+.search-input {
+    
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: none;
+    line-height: 40px;
+    width: 0px;
+    float: left;
+    font-size: 1em;
+    transition: 0.7s ease;
+}
+.search-btn {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 50%;
+    float: right;
+    color: #ff7b00;
+    transition: 1s ease;
+}
+
+.search-box:hover > .search-input,
+.search-input:focus {
+width: 400px;
+margin: 0px 8px;
+}
+.search-box:hover> .search-btn,
+.search-input:focus + .search-btn {
+background: rgb(73, 197, 255)   ;
+color: #101010;
 }
