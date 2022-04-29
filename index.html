@@ -96,7 +96,7 @@
     <!-- Desea Guardar Contraseña -->
     <div class="form-check mb-3">
       <input class="form-input" type="checkbox" id="switch"  
-      name="remember" required>
+      name="remember" >
       <label class="form-label" for="myCheck">¿Guardar Contraseña?.</label>
     </div>
   <button type="submit" class="btn btn-secundary">Iniciar Sesion</button>
@@ -287,14 +287,82 @@
 
 <br>
 
+
+
+<!-- Registrarse -->
+
+
+<!-- Registro de cliente -->
+<div class="modal fade" id="register" tabindex="-1" aria-labelledby="registerLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="registerlLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="row g-3 needs-validation" novalidate>
+          <div class="col-md-12">
+            <label for="validationCustomUsername" class="form-label">Username</label>
+            <div class="input-group has-validation">
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+              <div class="invalid-feedback">
+                Please choose a username.
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div class="invalid-feedback">
+              Please provide a valid city.
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">   
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="col-md-12">
+            <label for="exampleInputPassword1" class="form-label">Password Confirm</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+
+            </select>
+            <div class="invalid-feedback">
+              Please select a valid state.
+            </div>
+          </div>
+          <div class="form-check mb-12">
+            <input class="form-input" type="checkbox" id="switch"  
+            name="remember" >
+            <label class="form-label" for="myCheck">¿Guardar Contraseña?.</label>
+          </div>
+        
+        </form> 
+      </div>
+      <div class="modal-footer">
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit" required >Registrate</button>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
   <div class="row customscolorfooter">
 
 <div class="col-2 regisprom">
   <br><br>
     <div class="card">
       <p class="card-title fw-bold text-dark regispromtittle text-center ">Registrate para una mejor Experiencia</p>
-      <button type="button" class="btn rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">   
-        Iniciar Sesion
+      <button type="button" class="btn rounded" data-bs-toggle="modal" data-bs-target="#register">   
+        Registrate
     </button>
        
       </div>
