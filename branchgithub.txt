@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/33503686/how-do-i-merge-a-branch-into-a-master-in-github
