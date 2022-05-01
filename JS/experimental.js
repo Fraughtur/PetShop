@@ -12,4 +12,8 @@ formMain.addEventListener("submit", (e) => { // Escuchar cuando se envíe el for
     }
   });
 
+// validacion email
 
+if($('form').smockValidateForm()){
+    // hacer algo ...
+  }

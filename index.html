@@ -53,11 +53,7 @@
               <i class="fas fa-search"></i>
               </a>
           </div>
-        <!-- <input class="form-control me-9" type="search" placeholder="Buscar en la Tienda" aria-label="Search">
-        <label for="floatingInput">Buscar en la Tienda</label>
-      
-         <button type="submit" class="btn rounded"><img src="IMAGES/lupa.png" alt="" width="30" height="24" > -->
-          <!-- </button> -->
+
         </form>
        </div>
 
@@ -298,7 +294,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="registerlLabel">Modal title</h5>
+        <h5 class="modal-title" id="registerlLabel">Registro nuevo usuario</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body was-validated">
@@ -319,7 +315,14 @@
           <div class="col-md-12">
             <!-- Correo electronico -->
             <label for="exampleInputEmail1" class="form-label">Correo electronico:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <!-- <input type="email" required class="form-control" id="exampleInputEmail1" 
+             aria-describedby="emailHelp"> -->
+            <input type="email"
+               class="form-control"
+               placeholder="Ingrese su correo electronico"
+               pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}
+               [a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" required     
+              >
             <div class="invalid-feedback">
               Por favor rellene este campo.
             </div>
@@ -335,17 +338,18 @@
           </div>
           <div class="col-md-12">
             <!-- Contraseña numero 2 -->
-            <label for="exampleInputPassword1" class="form-label">Confirma tu contraseña:</label>
+            <label for="exampleInputPassword1" class="form-control">Confirma tu contraseña:</label>
             <p><input required class="form-control" id="pass2" type="password" /></p>            
             </select>
             <div class="invalid-feedback">
               Por favor rellene este campo.
             </div>
-          </div>
+          </div>          
           <div class="form-check mb-12">
-            <input class="form-input" type="checkbox" id="switch"  
+            <!-- Checkbox  -->
+            <input class="form-check-input" type="checkbox" id="switch" required  
             name="remember" >
-            <label class="form-label" for="myCheck">Acepta Terminos y condiciones.</label>
+            <label class="form-check-label" for="myCheck">Acepta Terminos y condiciones.</label>
           </div>
         
         </form> 
