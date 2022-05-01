@@ -1,4 +1,4 @@
-//Contraseña
+//Contraseña usuario - Inicio de sesion 
  document
   .getElementById('contraseña')
   .addEventListener('input', function(evt) {
@@ -50,38 +50,3 @@ const guardarSwitch = document.querySelector('#switch input[type="checkbox"]');
       }, false)
     })
 })()
-
-
-// Validaciones de contraseñas 
-
-  // Variables de contraseñas
-
-var psw1 = getElementById("pasword1").value;
-var psw2 = getElementById("pasword2").value;
-
-var espacios = false;
-var cont = 0;
-
-
-  // Que no haya espacios
-
-while (!espacios && (cont < p1.length)) {
-  if (p1.charAt(cont) == " ")
-    espacios = true;
-  cont++;
-}
-   
-if (espacios) {
-  alert ("La contraseña no puede contener espacios en blanco");
-  return false;
-}
-
-  // Que las contraseñas coincidan
-
-if (p1 != p2) {
-  alert("Las passwords deben de coincidir");
-  return false;
-} else {
-  alert("Todo esta correcto");
-  return true; 
-}
