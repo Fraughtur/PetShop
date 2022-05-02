@@ -18,32 +18,45 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-
-    <h5 class="fundacion">
-           
-        <div class="badge" style="width: 40rem;">
-            Fondos dedicados a la donación "Life&Care"
-          </div>  
-    </h5>  
-    
+   
+    <div class="container-fluid">
+    <div class="row fundacion">
+     
+    <div class="col-3 ">  <h6 style="padding-top: 4px;">Envios hacia: <img src="images/41.png" alt="" width="" height=""> </h6>  
+     </div>  
+  <div class="col-4"> 
+    <h5 class=""><div class="" style="padding-left:30px;">
+      ¡Te garantizamos el mejor precio online!
+      </div>  
+    </h5>
+  </div>
+  <div class="col-2">
+    <h6  style="padding-top: 4px;"><a  class="txtprimerabarra"href=""> Centro de Soporte</a></h6>  
+  </div>
+  <div class="col-2">
+    <h6 style="padding-top: 4px;"><a  class="txtprimerabarra" href=""> Estado de su producto</a></h6>  
+  </div>
+    </div>
+  </div>
   <div class="container-fluid containernavbar">
-    <br>
-    <div class="row">
-            
+  
+    <div class="row rownavbar">
+           <br> 
         <div class="col-xl-3">
-          
+          <br>
           <h1 class=" fw-bold fs-1 logocompany">
             <a href="index.html"><img src="IMAGES/1.jpg" class="border border-2 border-dark" alt="" width="90" height="72" ></a>
             <div class="badge text-wrap fw-bold     " style="width:3rem;">
                 PETSHOP
               </div>
         </h1>
-          
+        <br>
           </div>
           
               
           <!-- Buscar en la tienda -->
-        <div class="col-xl-5">
+        <!-- <div class="col-xl-5">
+          <br><br>
         <form class="form-floating mb-3 d-flex rounded">
           <div class="search-box  ">
               <input type="text"  placeholder="Buscar en la tienda"
@@ -53,10 +66,21 @@
               </a>
           </div>
         </form>
-       </div>
-
-       <div class="col-xl-4">
-           
+       </div> -->
+                    
+       <div class="col-xl-5">
+         <br>
+        <form class="form-floating mb-3 d-flex rounded">
+          <input class="form-control me-9" type="search" placeholder="Buscar en la Tienda" aria-label="Search">
+          <label for="floatingInput">Buscar en la Tienda</label>
+        
+          <button type="submit" class="btn rounded"><img src="IMAGES/lupa.png" alt="" width="30" height="24" >
+            </button>
+          </form>
+         </div>
+    
+       <div class="col-xl-4" style="padding-left: 20%;">
+           <br>
 <button type="button" class="btn rounded" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
     <img src="IMAGES/iniciarsesionlogo.png" alt="" width="30" height="24" >
     Iniciar Sesion
@@ -113,7 +137,9 @@
 </div>
 </div>
        </div>
+      
       </div> 
+      
   </div>
  
   <div class="container-fluid containeradress">
@@ -122,7 +148,7 @@
               <br>
             <img src="IMAGES/iconomapa.png" width="30" height="24" > Tienda: Calpheon
           </div>
-          <div class="col-4">
+          <div class="col-3">
               <br>
               <h5>Nuestras Redes Sociales: <img src="IMAGES/facebook.png" width="60" height="48">
                 <img src="IMAGES/instagram.png" width="60" height="48">
@@ -131,32 +157,31 @@
             
           </div>
           
-          <div class="col-2">
-              <br>
-              <h5>Visita la Farmacia de Mascotas: <a href=""><img src="IMAGES/lifepet.jpg" width="60" height="48"> </a>  </h5>
+          <div class="col-3">
+           
           </div>
           <div class="col-3">
               <br>
-            <h6> Se nuestro  socio para la fundacion  "Life&Care" :</h6> 
-            <a  href="" class="btn btn-secundary fw-bold ">Se nuestro Socio</a>
+         
+            <h6 class="fw-bold NuestrasCategorias ">NUESTRA TIENDA: <a href="categorias.html"><img src="images/2.png" alt="" width="40" height="40"> </a></h6> 
            
           </div>
       </div>
  <hr>
+ <br>
     </div>
-  
-  <div class="container-fluid">
+  <br>
+  <div class="row">
     <div class="row">
         
            <br><br>
            <div class="col-3">
-            <div class="badge fs-4" style="height: 2rem; width: 16rem; ;">
+            <!-- <div class="badge fs-4 NuestrasCategorias">
                 Nuestras Categorias 
-              </div>  </div>
+              </div>  </div> -->
               <div class="col-6"></div>
               <div class="col-3">
-                <h6 class="fw-bold ">VISITE NUESTROS PRODUCTOS AQUI -> <a href="categorias.html"><img src="images/2.png" alt="" width="40" height="40"> </a></h6> 
-              </div>
+                </div>
             </div> 
           
      <nav class="navbar navbar-expand-lg navbar-light ">
@@ -186,7 +211,7 @@
               </li> <li class="nav-item imagepadding">
                 <a class="nav-link " href="categorias.html" aria-current="page">
                     <img class="" src="IMAGES/identificadoricon.png" alt="" height="125px" width="125px"> 
-                    <div class="fw-bold tittlecategory" style="padding-left:10px;">
+                    <div class="fw-bold tittlecategory" style="padding-left:-10px;">
                        Identificaciones
                      </div>  
                   </a>
@@ -200,7 +225,9 @@
      </nav>
    
      <div class="row">
-    <div class="col-12">
+       <div class="col-2">   
+     </div>
+    <div class="col-8">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -227,71 +254,167 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          <br>
+     </div>
+     <div class="col-2"> 
+       <br><br><br><br><br><br><br><br>
+      <div class="card">
+      
+        <div class="card-body socio">
+          <h4 class="card-title fw-bold text-dark ">Vuelvete Socio para increibles descuentos</h4>
+          <button type="button" class="btn rounded" data-bs-toggle="modal" data-bs-target="#exampleModal">   
+            ¡Se socio ya!
+        </button>
+        </div>
+      </div>
      </div>
     </div>
     </div>
 <br> 
 <br>
 
-<div class="container-fluid">
+
   <div class="row">
     <div class="col-12">
+      <br>
       <p class="CategoriasDestacadas fw-bold text-center">Categorias Destacadas</p>
     </div>
     <div class="row">
       <div class="col-12"> <hr class="hrlong"></div>
     </div>
   </div>
-
-  
-<br>
   <div class="row">
     <div class="col">
-      <div class="card cardimagepromandtext" style="width: 18rem;">
+      <div class="card cardimagepromandtext " style="width: 18rem;">
         <img src="IMAGES/collarindex2.jpg" class="card-img-top w-100v2" alt="..." >
         <div class="card-body">
           
-          <p class="card-text btncategorytext text-center fw-bold">Docatty Collar</p>
-          <p class="card-text btncategorytext2 text-center"> Reflectante para perro.</p>
-          <button class="btn btn-secundary btncategorydesign text-center">Mas Informacion</button>
+          <p class="card-text btncategorytext text-center fw-bold">DOCATTY<p class="card-text btncategorytext2 text-center " > Reflectante para perro, collar de perro de nailon ajustable con hebilla de bloqueo de seguridad y acolchado de neopreno suave, collares de nailon duradero para cachorros pequeños, medianos y grandes</p>
+        </p>
+        <button   type="button" class="btn btn-secundary btnmoreinfo" data-bs-toggle="modal" data-bs-target="#modalmoreinfo1">
+          Mas Informacion
+        </button>
         </div>
+       
        
       </div>
     </div>
     <div class="col">
-      <div class="card cardimagepromandtext" style="width: 18rem;">
-        <img src="IMAGES/comidagato.jpg" class="card-img-top w-100v2" alt="..." >
+      <div class="card cardimagepromandtext " style="width: 18rem;">
+        <img src="IMAGES/bandanaindex.jpg" class="card-img-top w-100v2" alt="..." >
         <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>    
+          
+          <p class="card-text btncategorytext text-center fw-bold">REMIFA<p class="card-text btncategorytext2 text-center " > Bandanas para perro, lavable reversible, babero con accesorios ajustables para perros pequeños a grandes</p>
+        </p>
+        <button   type="button" class="btn btn-secundary btnmoreinfo" data-bs-toggle="modal" data-bs-target="#modalmoreinfo1">
+          Mas Informacion
+        </button>
         </div>
-        <button class="btn btn-secundary btncategorydesign">AAAAAAAAAA</button>
-      </div>  
+       
+       
+      </div>
     </div>
     <div class="col">
-      <div class="card cardimagepromandtext" style="width: 18rem;">
-        <img src="IMAGES/comidagato.jpg" class="card-img-top w-100v2" alt="..." >
+      <div class="card cardimagepromandtext " style="width: 18rem;">
+        <img src="IMAGES/identificadorindex.jpg" class="card-img-top w-100v2" alt="..." >
         <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          
+          <p class="card-text btncategorytext text-center fw-bold">MYLUCKYTAG<p class="card-text btncategorytext2 text-center " >Etiquetas de identificación de mascotas con código QR - Perfil de mascota en línea - Escanear QR Recibir alerta de ubicación instantánea de mascota</p>
+        </p>
+        <button   type="button" class="btn btn-secundary btnmoreinfo" data-bs-toggle="modal" data-bs-target="#modalmoreinfo1">
+          Mas Informacion
+        </button>
         </div>
-      </div>
-    </div> <div class="col">
-      <div class="card cardimagepromandtext" style="width: 18rem;">
-        <img src="IMAGES/comidagato.jpg" class="card-img-top w-100v2" alt="..." >
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
+       
+       
       </div>
     </div>
-    
+    <div class="col">
+      <div class="card cardimagepromandtext " style="width: 18rem;">
+        <img src="IMAGES/collargato.jpg" class="card-img-top w-100v2" alt="..." >
+        <div class="card-body">
+          
+          <p class="card-text btncategorytext text-center fw-bold">TAGLORY<p class="card-text btncategorytext2 text-center " > Collares reflejantes Taglory para gatos, incluye campana, paquete de 2 unidades, collar ajustable de 7.5 a 12.5 pulgadas, color negro</p>
+        </p>
+        <button   type="button" class="btn btn-secundary btnmoreinfo" data-bs-toggle="modal" data-bs-target="#modalmoreinfo1">
+          Mas Informacion
+        </button>
+        </div>
+       
+       
+      </div>
+    </div>
+    <div class="col">
+      <div class="card cardimagepromandtext " style="width: 18rem;">
+        <img src="IMAGES/collargato2.jpg" class="card-img-top w-100v2" alt="..." >
+        <div class="card-body">
+          
+          <p class="card-text btncategorytext text-center fw-bold">WEEWOODAY<p class="card-text btncategorytext2 text-center " > piezas de collar de pajarita para gato con campana Breakaway Collar cómodo de terciopelo para gato con lindo collar de seguridad para mascotas gatito cachorro (negro, gris, verde oscuro, azul, pequeño)</p>
+        </p>
+        <button   type="button" class="btn btn-secundary btnmoreinfo" data-bs-toggle="modal" data-bs-target="#modalmoreinfo1">
+          Mas Informacion
+        </button>
+        </div>
+       
+       
+      </div>
+    </div>
   </div>
-  
-  
+
+<!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade " id="modalmoreinfo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="index.html"><img src="IMAGES/1.jpg" class="border border-2 border-dark" alt="" width="60" height="60" ></a>
+        <div class="badge text-wrap fw-bold fs-5 " style="width:6px;">
+            PETSHOP
+          </div>
+        
+       
+       
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+      <div class="row">
+        <div class="col">
+        <img src="IMAGES/collarindex2.jpg" class="card-img-top w-100v2" alt="..." ></div>
+        <div class="col">
+        <h1 class="card-text btncategorytext fw-bold fs-2">Docatty Collar </h1>
+        <p class="btncategorytext3 fw-bold fs-6">Marca: Docatty</p>
+        <p class="card-text btncategorytext4" > Reflectante para perro, collar de perro de nailon ajustable con hebilla de bloqueo de seguridad y acolchado de neopreno suave, collares de nailon duradero para cachorros pequeños, medianos y grandes</p>
+      <hr>
+      <div class="row">
+        <div class="col-2 btncategorytext5 text-center">Precio:</div><div class="col-9 btncategorytext6 fs-4 fw-bold ">64.000clp</div>
+      </div>
+      <div class="row">
+        <div class="col-6 btncategorytext5 fw-bold ">Color:</div><div class="col-6 btncategorytext5">Azul</div>
+      </div> <div class="row">
+        <div class="col-6 btncategorytext5 fw-bold">Material:</div><div class="col-6 btncategorytext5 ">	Neopreno Plástico Nailon</div>
+      </div> <div class="row">
+        <div class="col-6 btncategorytext5 fw-bold">Marca:</div><div class="col-6 btncategorytext5 ">Docatty</div>
+      </div> <div class="row">
+        <div class="col-6 btncategorytext5 fw-bold">Tipo de Cierre:</div><div class="col-6 btncategorytext5 ">Hebilla</div>
+      </div>
+
+      </div>
+        </div>
+        
+   
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secundary" data-bs-dismiss="modal">Añadir al Carro</button>
+       
+      </div>
+    </div>
+    </div>
+
+  </div>
 </div>
-
-
-
-
-
 <br>
 
 
@@ -418,7 +541,7 @@
 </div>
 </div>  
 <br>
-<div class="container-fluid footercontainer">
+<div class="row footercontainer">
   <footer class="py-5 my-5 border-top  previuvfooter">
    
    <div class="row">
@@ -477,9 +600,12 @@
       </div>
 </h1></div>
 </div>
+
   </footer>
+  <br><br>
+<p class="text-muted text-center">PetShop © 2022</p>
 </div>
-    <p class="text-muted text-center">PetShop © 2022</p>
+   
 
    
 </body>
