@@ -4,7 +4,7 @@
     color: white;
     padding-left: 10%;
 }
-di
+
 .badge.text-wrap{
     color: black;
 }
@@ -59,7 +59,7 @@ di
 }
 
 .row.rownavbar{
-    background-color: rgb(73, 197, 255);
+    background-color: rgb(255, 255, 255);
 }
 .customscolor{
     background-color: rgb(73, 197, 255);
@@ -90,7 +90,9 @@ di
  padding-right: 19%;
 }
 
-
+.badge.text-wrap {
+    color: rgb(0, 0, 0);
+}
 .carousel.item.active {
     width:100%;
     height:100%;
@@ -180,9 +182,7 @@ di
     margin-top: 3%;
     margin-left: 3%;
 }
-.row{
-    background-color: white;
-}
+
 .txtquienessomos{
     
     margin-left: 20%;

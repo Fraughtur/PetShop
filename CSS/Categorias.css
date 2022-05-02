@@ -1,9 +1,18 @@
-.fundacion {
+.row.fundacion {
     text-align: center;
-    background-color:  rgb(73, 197, 255) ;
+    background-color: rgb(119, 212, 255);
+    color: white;
+    padding-left: 10%;
+}
+
+.badge.text-wrap {
+    color: rgb(0, 0, 0);
+}
+.txtprimerabarra{
     color: white;
 }
-.badge.text-wrap{
+
+.txtprimerabarra:hover{
     color: black;
 }
 .btn.rounded{
@@ -25,7 +34,7 @@
 }
 
 .container-fluid.containernavbar{
-    background: rgb(73, 197, 255);
+    background: rgb(255, 255, 255);
 }
 
 .container-fluid.containeradress{
@@ -34,7 +43,7 @@
 
 
 body{
-    background: url("../IMAGES/background2.png") repeat; 
+    /* background: url("../IMAGES/background2.png") repeat;  */
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
     
 }
@@ -56,6 +65,10 @@ body{
       margin-left: 25%;
   }
 
+  .carousel.slide.carouselcategory {
+        width: 90%;
+        height: 500px;
+  }
   .sociotext{
      text-align: center;
       color: black;
@@ -92,10 +105,23 @@ body{
     height: 100%;
     background: rgb(73, 197, 255);
    
-    border: #FFF solid;
-    border-width: 0 1px 0 1px;
- 
+     border: #FFF solid;
+    border-width: 0 0 0 0;
+  
     
+}
+
+.btncategorytext2{
+    color: #000000;
+ 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 h1 h2 h3 h4 h5 h6 a p  {
@@ -121,14 +147,36 @@ h1 h2 h3 h4 h5 h6 a p  {
     height: 640px;
 }
 
+.carousel-control-prev .carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-control-next .carousel-control-next-icon{
+    background-color: black;
+}
+
+.col-3.colsocio{
+padding-left: 9%;
+}
+.carousel-indicators  {
+    
+    cursor: pointer;
+    background-color: #939ba3;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
 .w-100 {
     width: 100% ;
-    height: 55vh;
+    height: 35vh;
   }
 
 .W-100V2 {
-    width: 100% ;
-    height: 50vh;
+    width: 55vh ;
+    height: 75vh;
 }
 
 .footerimage{
@@ -182,6 +230,24 @@ h1 h2 h3 h4 h5 h6 a p  {
 
 }
 
+.regis2{
+    padding-left: 90%;
+}
+
 .rowoffer{
     background-color: white;
+    color: rgb(73, 197, 255);
+   
+}
+
+.badge.fs-4.NuestrasCategorias{
+    color:rgb(73, 197, 255);
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    padding-left: 15%;
+}
+
+.fw-bold.NuestrasCategorias{
+    color:rgb(0, 0, 0);
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    
 }
