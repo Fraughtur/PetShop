@@ -294,6 +294,17 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+        <div id="msg"></div>
+ 
+            <!-- Mensajes de Verificación -->
+            <div id="error" class="alert alert-danger ocultar" role="alert">
+                Las Contraseñas no coinciden, vuelve a intentar !
+            </div>
+            <div id="ok" class="alert alert-success ocultar" role="alert">
+                Las Contraseñas coinciden ! (Procesando formulario ... )
+            </div>
+            <!-- Fin Mensajes de Verificación -->
+
         <h5 class="modal-title" id="registerlLabel">Registro nuevo usuario</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -315,22 +326,25 @@
           <div class="col-md-12">
             <!-- Correo electronico -->
             <label for="exampleInputEmail1" class="form-label">Correo electronico:</label>
-            <!-- <input type="email" required class="form-control" id="exampleInputEmail1" 
-             aria-describedby="emailHelp"> -->
-            <input type="email"
-               class="form-control"
+            <input type="email" required class="form-control" id="emailAddress" placeholder="Ingrese su correo electronico"
+              pattern ="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"            
+              aria-describedby="emailHelp">
+            <!-- <input type="email"
+               class="form-control" ".+@gmail.com"
                placeholder="Ingrese su correo electronico"
-               pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}
+               pattern="/^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@+[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}
                [a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/" required     
-              >
+              > -->
             <div class="invalid-feedback">
               Por favor rellene este campo.
             </div>
           </div>
           <div class="col-md-12">
+            
             <!-- Contraseña numero 1  -->
             <label for="exampleInputPassword1" class="form-label">Contraseña:</label>
-            <p><input required class="form-control" id="pass1" type="password" /></p>                
+            <p><input required class="form-control" id="pass1" type="password" pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*"
+              title="Debe tener al menos una mayúscula, una minúscula y un dígito" minlength="8" && maxlength="20" required/></p>                
             </select>
             <div class="invalid-feedback">
               Por favor rellene este campo.
@@ -338,8 +352,9 @@
           </div>
           <div class="col-md-12">
             <!-- Contraseña numero 2 -->
-            <label for="exampleInputPassword1" class="form-control">Confirma tu contraseña:</label>
-            <p><input required class="form-control" id="pass2" type="password" /></p>            
+            <label for="exampleInputPassword1" class="form-label">Confirma tu contraseña:</label>
+            <p><input required class="form-control" id="pass2" type="password" pattern="(?=.*\d)(?=.*[a-záéíóúüñ]).*[A-ZÁÉÍÓÚÜÑ].*"
+              title="Debe tener al menos una mayúscula, una minúscula y un dígito" minlength="8" && maxlength="20" required/></p>            
             </select>
             <div class="invalid-feedback">
               Por favor rellene este campo.
@@ -356,7 +371,7 @@
       </div>
       <div class="modal-footer">
         <div class="col-12">
-          <button class="btn btn-primary" type="submit" required >Registrate</button>
+          <button class="btn btn-secundary" type="submit" required >Registrate</button>
         </div>
        
       </div>
@@ -410,8 +425,11 @@
 <div class="col-md-4">
   <br>
   <br>
+  <!-- Correo electronico enviar por preguntas -->
   <form class="form-floating d-flex rounded-start">
-      <input class="form-control me-9" type="search" placeholder="Ingrese su Correo Electronico" aria-label="Search">
+    <input type="email" required class="form-control" id="emailAddress" placeholder="Ingrese su correo electronico"
+    pattern ="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"            
+    aria-describedby="emailHelp">
       <label for="floatingInput">Ingrese su Correo Electronico</label>
       <button type="submit" class="btn rounded-bottom">Enviar Correo
         </button>

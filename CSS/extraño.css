@@ -85,3 +85,13 @@ margin: 0px 8px;
 background: #22ffc0;
 color: #101010;
 }
+
+
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
