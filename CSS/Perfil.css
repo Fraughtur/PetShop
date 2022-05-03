@@ -1,0 +1,63 @@
+.row.fundacion {
+    text-align: center;
+    background-color: rgb(119, 212, 255);
+    color: white;
+    padding-left: 10%;
+}
+
+.iniciarsesionmodaldesign{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+.txtprimerabarra{
+    color: white;
+}
+
+.container-fluid.containernavbar{
+    background-color:rgb(255, 255, 255);
+}
+.row.rownavbar{
+    background-color: rgb(255, 255, 255);
+}
+.logocompany{
+    margin-left: 4%;
+}
+.badge.text-wrap {
+    color: rgb(0, 0, 0);
+}
+.btn.rounded{
+    background-color: rgb(200, 202, 202);
+}
+
+.tittlesocio{
+    color: rgb(119, 212, 255);
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.btn.btn-secundary23{
+    background-color: white;
+    color: rgb(119, 212, 255);
+}
+.txt231{
+    color: rgb(119, 212, 255);
+}
+
+.tittleuser.fw-bold {
+    padding-left: 60%;
+    color: white;
+    font-size: 35px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.row.containerprofile{
+    
+    background-color: rgb(119, 212, 255);
+}
+
+.col-4.paddingttittle{
+    padding-left: 10%;
+    padding-bottom: 1%;
+}

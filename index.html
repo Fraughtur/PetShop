@@ -55,7 +55,7 @@
           
               
           <!-- Buscar en la tienda -->
-        <!-- <div class="col-xl-5">
+        <div class="col-xl-5">
           <br><br>
         <form class="form-floating mb-3 d-flex rounded">
           <div class="search-box  ">
@@ -66,9 +66,9 @@
               </a>
           </div>
         </form>
-       </div> -->
+       </div> 
                     
-       <div class="col-xl-5">
+       <!-- <div class="col-xl-5">
          <br>
         <form class="form-floating mb-3 d-flex rounded">
           <input class="form-control me-9" type="search" placeholder="Buscar en la Tienda" aria-label="Search">
@@ -78,7 +78,7 @@
             </button>
           </form>
          </div>
-    
+     -->
        <div class="col-xl-4" style="padding-left: 20%;">
            <br>
 <button type="button" class="btn rounded" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
@@ -106,7 +106,7 @@
 </div>
 </div>
 <div class="modal-body modalbackgroundlogin">
-  <form action="/action_page.php">
+  <form action="Perfil.html" method="post">
     <!-- Usuario -->
     <div class="form-floating mb-3 mt-1">
       
@@ -130,7 +130,12 @@
       name="remember" >
       <label class="form-label" for="myCheck">¿Guardar Contraseña?.</label>
     </div>
-  <button type="submit" class="btn btn-secundary">Iniciar Sesion</button>
+    
+      <button type="submit" class="btn btn-secundary">Iniciar Sesion</button>
+  <button class="btn btn-secundary23 " data-bs-toggle="modal" data-bs-target="#register" > 
+    <br>
+    <p class=" text-decoration-none fw-bold text-info">
+    ¿No tenes cuenta eh? </p></button>
   </form>
 </div>
 </div>
@@ -148,18 +153,15 @@
               <br>
             <img src="IMAGES/iconomapa.png" width="30" height="24" > Tienda: Calpheon
           </div>
-          <div class="col-3">
-              <br>
-              <h5>Nuestras Redes Sociales: <img src="IMAGES/facebook.png" width="60" height="48">
-                <img src="IMAGES/instagram.png" width="60" height="48">
-                <img src="IMAGES/whatsapp.png" width="60" height="48"></h5>
+          <div class="col-6">
+            <br>
+            <h5>Nuestras Redes Sociales: 
+              <img src="IMAGES/facebook.png" width="60" height="48">
+              <img src="IMAGES/instagram.png" width="60" height="48">
+              <img src="IMAGES/whatsapp.png" width="60" height="48"></h5>
 
-            
-          </div>
           
-          <div class="col-3">
-           
-          </div>
+        </div>
           <div class="col-3">
               <br>
          
@@ -262,11 +264,11 @@
       
         <div class="card-body socio">
           <h4 class="card-title fw-bold text-dark ">Vuelvete Socio para increibles descuentos</h4>
-          <form action="Donacion.html" method="get" target="">
-           <button role="button"  class="btn rounded"  >   
+         
+           <button role="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn rounded"  >   
           ¡Se socio ya!
         </button>
-      </form> 
+    
         </div>
       </div>
      </div>
