@@ -27,3 +27,9 @@ const guardarSwitch = document.querySelector('#switch input[type="checkbox"]');
               }
           }
           guardarSwitch.addEventListener('change', guardarContraseña);
+
+
+
+          
+          
+   

@@ -174,3 +174,50 @@ width: 300px;
 .btn.btncolorandmargin:hover{
     color: white;
 }
+
+.titlleproductoverdetalles{
+    color: rgb(146, 219, 253);
+    font-size: 35px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.titlleproductoverdetalles2{
+    color: rgb(100, 206, 255);
+    font-size: 15px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    margin-left: 25px;
+
+ 
+}
+
+.titlleproductoverdetalles3{
+    color: rgb(100, 206, 255);
+    font-size: 15px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.titlleproductoverdetalles4{
+    color: rgb(58, 162, 211);
+    font-size: 15px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.titlleproductoverdetalles5{
+    color: rgb(58, 162, 211);
+    font-size: 15px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.titlleproductoverdetalles6{
+    color: rgb(58, 162, 211);
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+.modal-title.modaltittlebuy{
+margin-left: 120px;
+}
+
+
+
+
+
