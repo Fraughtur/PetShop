@@ -134,16 +134,43 @@ width: 300px;
 }
 
 .btn.rounded-pill.color{
-    margin-left: 80%;
+    margin-left: 75%;
     margin-top: 70px;
+    width: 300px;
  background-color: rgb(156, 219, 248);
  font-size: 20px;
  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
- color: rgb(39, 39, 39);
+ color: rgb(255, 255, 255);
 }
 
 .col.coltittlecheck{
     margin-top: 5%;
     font-size: 20px;
     font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.longhr{
+    width: 900px;
+}
+.tittlecompraonline{
+    font-size: 20px;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+.btn.rounded-pill.btnmoreinfo{
+    margin-left: 400px;
+    color: white;
+    background-color: rgb(119, 212, 255);
+
+}
+
+.btn.btncolorandmargin{
+    background-color: rgb(156, 219, 248);
+    color: white;
+    margin-left: 120px;
+    font-size: 20px;
+}
+
+.btn.btncolorandmargin:hover{
+    color: white;
 }
