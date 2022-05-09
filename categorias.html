@@ -29,39 +29,46 @@
                       
                       
                       </script>
-  
-  
-                       <script type="text/javascript">
-                        $(document).ready(function(){  
-                            $("#category2").click(function(){
-                                $.get("https://fraughtur.github.io/abcw/index.json",
-                                function(data){
-                                    $.each(data.products2,function(i, item){ 
-                                        $("#categorias2").append('<div class="card" style"width: 18rem;">'+ '<img src="'+item.image+'"class="card-img-top w-100V2" alt="...">'+
+
+    <script>fetch("https://fraughtur.github.io/abcw/index.json")
+      .then(Response => {
+          return Response.json();})
+      $.get("https://fraughtur.github.io/abcw/index.json",
+      function(data){
+          $.each(data.products2,function(i, item){
+              $("#categorias2").append('<div class="card" style"width: 18rem;">'+ '<img src="'+item.image+'"class="card-img-top w-100V2" alt="...">'+
                   '<div class="card-body">'+'<h5 class="card-title">'+item.name+'</h5>'+ '  <br><br><br>'+
                       '<p class="card-text btncategorytext2">'+item.text+'</p>'+
-                      ' <button class="btn btn-secundary">Mas informacion</button></div>')
-                                    });
-                                });
-                            });
-                        })
-                    </script>
+                      ' <button class="btn btn-secundary">Mas informacion</button></div>') 
+                      
+                      
+                      })})
+                      
+                      
+                      
+                      </script>
+  
+                       
+    <script>fetch("https://fraughtur.github.io/abcw/index.json")
+      .then(Response => {
+          return Response.json();})
+      $.get("https://fraughtur.github.io/abcw/index.json",
+      function(data){
+          $.each(data.products3,function(i, item){
+              $("#categorias3").append('<div class="card" style"width: 18rem;">'+ '<img src="'+item.image+'"class="card-img-top w-100V2" alt="...">'+
+                  '<div class="card-body">'+'<h5 class="card-title">'+item.name+'</h5>'+ '  <br><br><br>'+
+                      '<p class="card-text btncategorytext2">'+item.text+'</p>'+
+                      ' <button class="btn btn-secundary">Mas informacion</button></div>') 
+                      
+                      
+                      })})
+                      
+                      
+                      
+                      </script>
+  
                     
-                    <script type="text/javascript">
-                      $(document).ready(function(){  
-                          $("#category3").click(function(){
-                              $.get("https://fraughtur.github.io/abcw/index.json",
-                              function(data){
-                                  $.each(data.products3,function(i, item){ 
-                                      $("#categorias3").append('<div class="card" style"width: 18rem;">'+ '<img src="'+item.image+'"class="card-img-top w-100V2" alt="...">'+
-                '<div class="card-body">'+'<h5 class="card-title">'+item.name+'</h5>'+ '  <br><br><br>'+
-                    '<p class="card-text btncategorytext2">'+item.text+'</p>'+
-                    ' <button class="btn btn-secundary">Mas informacion</button></div>')
-                                  });
-                              });
-                          });
-                      })
-                  </script>
+                   
 </head>
 <body>
   
@@ -101,20 +108,20 @@
           
               
           <!-- Buscar en la tienda -->
-        <!-- <div class="col-xl-5">
-          <br><br>
-        <form class="form-floating mb-3 d-flex rounded">
-          <div class="search-box  ">
-              <input type="text"  placeholder="Buscar en la tienda"
-              class="search-input rounded-pill" />
-              <a href="#" class="search-btn">
-              <img src="IMAGES/lupa.png" alt="" width="25" height="25" >
-              </a>
-          </div>
-        </form>
-       </div> -->
+          <div class="col-xl-5">
+            <br><br>
+          <form class="form-floating mb-3 d-flex rounded">
+            <div class="search-box  ">
+                <input type="text"  placeholder="Buscar en la tienda"
+                class="search-input rounded-pill" />
+                <a href="#" class="search-btn">
+                <img src="IMAGES/lupa.png" alt="" width="25" height="25" >
+                </a>
+            </div>
+          </form>
+         </div> 
                     
-       <div class="col-xl-5">
+       <!-- <div class="col-xl-5">
          <br>
         <form class="form-floating mb-3 d-flex rounded">
           <input class="form-control me-9" type="search" placeholder="Buscar en la Tienda" aria-label="Search">
@@ -123,7 +130,7 @@
           <button type="submit" class="btn rounded"><img src="IMAGES/lupa.png" alt="" width="30" height="24" >
             </button>
           </form>
-         </div>
+         </div> -->
     
        <div class="col-xl-4" style="padding-left: 20%;">
            <br>
@@ -365,7 +372,7 @@
 <div class="row rowoffer">
   <div class="col-9">
     <h5 class="categorias fw-bold">
-         PRODUCTOS MAS VENDIDOS
+         Nuestros productos
        <hr>
   </h5> 
   </div>
@@ -381,15 +388,15 @@
         <button type="button" id="category3"data-bs-target="#carouselcategorys" data-bs-slide-to="2" aria-label="Slide 3"></button>
       </div>
       <div class="carousel-inner " >
-        <div class="carousel-item active"  data-bs-interval="5000">
+        <div class="carousel-item active"  data-bs-interval="3000">
           <div class="card-group" id="categorias">
         </div>
         </div>
-        <div class="carousel-item "  data-bs-interval="5000">
+        <div class="carousel-item "  data-bs-interval="3000">
           <div class="card-group" id="categorias2">
           </div>
         </div>
-        <div class="carousel-item"  data-bs-interval="5000">
+        <div class="carousel-item"  data-bs-interval="3000">
           <div class="card-group" id="categorias3">
           </div>
         </div>
@@ -482,211 +489,8 @@
   </div>
 </div>
 
-<div class="row ">
-  <div class="col-12 rowoffer">
-    <h5 class="categorias fw-bold">
-         CATEGORIAS MAS VENDIDAS
-       <hr>
-  </h5> 
-  </div>
-  <div class="col-2"></div>  
-</div>  
 
-<div class="row">
-  <div class="col-10">
-    <div id="carouselcategorys2" class="carousel slide carouselcategory" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselcategorys2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselcategorys2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselcategorys2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner  ">
-        <div class="carousel-item active" >
-          <div class="card-group">
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card-group">
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="card-group">
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="IMAGES/71zbOyKn-jS._AC_SL1500_.jpg" class="card-img-top w-100V2" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">KISSBAK </h5>
-                <br><br><br>
-                <p class="card-text btncategorytext2">Collar de perro para perros pequeños, diseño especial personalizado, lindo collar para cachorro, perra pequeña y grande, mujer, collar suave y ajustable para perros (girasol, S)</p>
-                <button class="btn btn-secundary">Mas informacion</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button> -->
-    </div>
-  </div>
+  </div> 
 </div>
 
 
